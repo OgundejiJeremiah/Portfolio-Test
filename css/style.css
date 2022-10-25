@@ -1,0 +1,137 @@
+/********************** TAG-CSS *********************/
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  margin-top: 95px auto 0 auto;
+}
+
+h2 {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia,
+    serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia,
+    serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua",
+    Georgia, serif;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  color: #eaf6f6;
+  border-width: 7px;
+  width: 6%;
+}
+
+/********************** CLASS-CSS *********************/
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 30px 0;
+  margin-top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -moz-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -ms-linear-gradient(top, #66bfbf, #11999e);
+  background-image: -o-linear-gradient(top, #66bfbf, #11999e);
+  background-image: linear-gradient(to bottom, #66bfbf, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #40514e;
+  text-decoration: none;
+}
+
+.css-img {
+  float: right;
+  width: 25%;
+}
+
+.first-container {
+  background-color: #e4f9f5;
+}
+
+.footer-link {
+  color: #11999e;
+  margin: 0 8px 0 8px;
+  text-decoration: none;
+}
+
+.graphic-img {
+  float: right;
+  margin: 10px;
+  width: 25%;
+}
+
+.html-img {
+  float: left;
+  margin: 20px;
+  width: 25%;
+}
+
+.javascript-img {
+  float: left;
+  margin-top: -100px;
+  width: 20%;
+  padding: 20px;
+}
+
+.profile-picture {
+  border-radius: 1000px;
+  margin-top: 5%;
+  width: 18%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  margin: 3% 0 0 30%;
+}
+
+/************************** ID-CSS **************************/
+
+#about {
+  color: #40514e;
+  margin-bottom: 5%;
+}
+
+#footer {
+  color: #eaf6f6;
+}
+
+#skills {
+  margin-top: 7%;
+}
